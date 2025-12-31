@@ -1,7 +1,5 @@
 
-  # Luxury Minimalist Website UI
-
-  This is a code bundle for Luxury Minimalist Website UI. The original project is available at https://www.figma.com/design/a586oj50SsV7gFr4y4Aqdj/Luxury-Minimalist-Website-UI.
+  # BNIBINA
 
   ## Running the code
 
