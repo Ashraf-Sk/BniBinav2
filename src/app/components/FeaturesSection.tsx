@@ -67,7 +67,7 @@ export function FeaturesSection() {
   }, []);
 
   return (
-    <section className="relative px-6 lg:px-12 py-24 overflow-hidden" style={{ backgroundColor: '#FAFAFA' }}>
+    <section id="services" className="relative px-6 lg:px-12 py-24 overflow-hidden" style={{ backgroundColor: '#FAFAFA' }}>
       {/* Professional Logo Background */}
       <BNIBINALogoBackground variant="pattern" opacity={0.015} className="z-0" />
       

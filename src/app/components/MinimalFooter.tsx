@@ -3,7 +3,7 @@ import { BNIBINALogo } from './BNIBINALogo';
 
 export function MinimalFooter() {
   return (
-    <footer className="border-t border-border px-6 lg:px-12 py-12" style={{ backgroundColor: '#FAFAFA' }}>
+    <footer id="contact" className="border-t border-border px-6 lg:px-12 py-12" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
@@ -17,27 +17,43 @@ export function MinimalFooter() {
           {/* Quick Links */}
           <div>
             <h3 className="font-[var(--font-heading)] mb-4 text-foreground" style={{ fontSize: '1rem', fontWeight: 700 }}>
-              QUICK LINKS
+              NAVIGATION
             </h3>
             <ul className="space-y-2">
-              {['About Us', 'Features', 'Contact', 'FAQ'].map((link) => (
-                <li key={link}>
-                  <a 
-                    href="#" 
-                    className="font-[var(--font-body)] text-foreground/70 hover:text-accent transition-colors" 
-                    style={{ fontSize: '0.875rem', fontWeight: 400 }}
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a 
+                  href="#top" 
+                  className="font-[var(--font-body)] text-foreground/70 hover:text-accent transition-colors" 
+                  style={{ fontSize: '0.875rem', fontWeight: 400 }}
+                >
+                  Accueil
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#services" 
+                  className="font-[var(--font-body)] text-foreground/70 hover:text-accent transition-colors" 
+                  style={{ fontSize: '0.875rem', fontWeight: 400 }}
+                >
+                  Nos services
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#contact" 
+                  className="font-[var(--font-body)] text-foreground/70 hover:text-accent transition-colors" 
+                  style={{ fontSize: '0.875rem', fontWeight: 400 }}
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
             <h3 className="font-[var(--font-heading)] mb-4 text-foreground" style={{ fontSize: '1rem', fontWeight: 700 }}>
-              GET IN TOUCH
+              CONTACTEZ-NOUS
             </h3>
             <ul className="space-y-2">
               <li className="font-[var(--font-body)] text-foreground/70" style={{ fontSize: '0.875rem', fontWeight: 400 }}>
